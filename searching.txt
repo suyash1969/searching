@@ -1,0 +1,27 @@
+class searching {
+    public static void main(String args[])
+    {
+     int   arr[]={10,98,98,876,876};
+    int flag=0;
+   int ele=876;
+    for(int i=0;i<arr.length;i++)
+    {
+       if(arr[i]==ele)
+       {
+           flag++;
+           
+       }
+    }
+       if(flag==0){
+           System.out.println("not found");
+       }
+       if(flag>1)
+       {
+           System.out.println("found");
+       }
+       System.out.println(flag);
+
+
+    }
+
+    }
